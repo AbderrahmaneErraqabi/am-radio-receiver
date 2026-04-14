@@ -36,7 +36,7 @@ Key design parameters:
 ![AM radio circuit](circuitradio.png)
 
 ### Video presentation
-[Watch the project video on YouTube](PASTE_YOUR_YOUTUBE_LINK_HERE)
+[Watch the project video on YouTube](https://youtube.com/shorts/N03W0twUTz0)
 
 ## Authors
 - Abderrahmane Er-Raqabi
