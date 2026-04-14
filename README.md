@@ -35,7 +35,6 @@ The receiver uses the following main components:
 
 - copper loop antenna / coil
 - 2 TRC210 variable capacitors connected in parallel
-- 1 fixed capacitor
 - 1N34A germanium diode
 - LM386 audio amplifier
 - 10 kΩ potentiometer for volume control
@@ -70,8 +69,7 @@ To obtain a useful tuning range, two TRC210 variable capacitors were connected i
 
 Capacitance values:
 - variable capacitors range: **about 14 pF to 200 pF**
-- fixed capacitor: **10 pF**
-- equivalent maximum capacitance: **210 pF**
+- equivalent maximum capacitance: **200 pF**
 
 This choice was made to ensure that the LC circuit could cover the AM broadcast band.
 
@@ -102,8 +100,7 @@ Key design values used in the project:
 
 - AM band target: **540 kHz to 1600 kHz**
 - capacitance range: **14 pF to 200 pF**
-- fixed capacitor: **10 pF**
-- maximum equivalent capacitance: **210 pF**
+- maximum equivalent capacitance: **200 pF**
 - calculated inductance: **413.65 µH**
 - theoretical number of turns: **17.46**
 - practical number of turns used: **18**
@@ -136,33 +133,8 @@ During testing, the receiver required careful adjustment because AM reception is
 
 Tuning was achieved by adjusting the variable capacitors until a station became audible in the earphones.
 
----
 
-## What This Project Demonstrates
-This project illustrates several important physical and electrical concepts:
 
-- electromagnetic induction in a loop antenna
-- magnetic flux variation and induced voltage
-- LC resonance and frequency selectivity
-- AM demodulation using a diode
-- low-power audio amplification using an integrated amplifier
-
-It is a compact example of how electromagnetic theory can be applied to build a functional communication device.
-
----
-
-## Repository Contents
-This repository includes:
-- project images
-- circuit photos
-- project documentation
-- video presentation link
-
-Files:
-- `circuitradio.png`
-- `realcircuit.png`
-
----
 
 ## Authors
 - **Abderrahmane Er-Raqabi**
